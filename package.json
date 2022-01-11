@@ -1,0 +1,21 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "Solidity Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ETH"
+  ],
+  "author": "Oseni ENiola",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.3",
+    "solc": "^0.4.25",
+    "web3": "^1.6.1"
+  }
+}
